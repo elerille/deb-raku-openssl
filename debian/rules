@@ -2,8 +2,3 @@
 
 %:
 	dh $@ --with perl6
-
-build:
-	echo '{"ssl":"ssl","crypto":"crypto"}' > resources/libraries.json
-clean:
-	rm -f resources/libraries.json

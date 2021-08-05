@@ -1,5 +1,7 @@
-raku-openssl (0.1.26-1) UNRELEASED; urgency=medium
+raku-openssl (0.1.26-4) unstable; urgency=medium
 
   * Create package for Raku module OpenSSL
+  * Change load libssl.so and libcrypto.so for libssl1.1 package
+  * Change META6.json/resources for remove not included resources
 
- -- Élerille <elerille+debian@thran.io>  Thu, 05 Aug 2021 13:32:52 +0200
+ -- Élerille <elerille+debian@thran.io>  Thu, 05 Aug 2021 15:49:43 +0200
