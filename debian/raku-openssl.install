@@ -1,0 +1,5 @@
+lib/* usr/share/perl6/debian-sources/raku-openssl/lib
+t/* usr/share/perl6/debian-sources/raku-openssl/t
+META* usr/share/perl6/debian-sources/raku-openssl
+README* usr/share/doc/raku-openssl/
+resources usr/share/perl6/debian-sources/raku-openssl
