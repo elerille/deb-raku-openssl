@@ -2,11 +2,13 @@ Source: raku-openssl
 Maintainer: Élerille <elerille+debian@thran.io>
 Section: interpreters
 Priority: optional
-Build-Depends: debhelper-compat (= 12), dh-perl6
+Build-Depends: debhelper-compat (= 13), dh-perl6
 Standards-Version: 4.5.1
+Homepage: https://github.com/sergot/openssl
+Rules-Requires-Root: no
 
 Package: raku-openssl
 Architecture: all
 Depends: rakudo, ${misc:Depends}, raku-pathtools, libssl1.1
-Description: Raku module OpenSSL
- OpenSSL bindings
+Description: Raku module for OpenSSL
+ Provides OpenSSL bindings for Raku

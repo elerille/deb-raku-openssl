@@ -1,6 +1,6 @@
-raku-openssl (0.1.26-4) unstable; urgency=medium
+raku-openssl (0.1.26-1) unstable; urgency=medium
 
-  * Create package for Raku module OpenSSL
+  * Initial release
   * Change load libssl.so and libcrypto.so for libssl1.1 package
   * Change META6.json/resources for remove not included resources
 

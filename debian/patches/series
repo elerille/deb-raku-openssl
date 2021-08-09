@@ -1,1 +1,2 @@
 fix-libssl.patch
+test-with-shebang.patch
